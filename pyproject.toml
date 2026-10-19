@@ -41,7 +41,7 @@ dependencies = [
   "invisible-watermark==0.2.0",           # needed to install SDXL base and refiner using their repo_ids
   "mediapipe==0.10.14",                   # needed for "mediapipeface" controlnet model
   "numpy<2.0.0",
-  "onnx==1.16.1",
+  "onnx==1.22.0",
   "onnxruntime==1.19.2",
   "opencv-contrib-python",
   "safetensors",
@@ -96,7 +96,7 @@ dependencies = [
 "onnx-directml" = ["onnxruntime-directml"]
 "dist" = ["pip-tools", "pipdeptree", "twine"]
 "docs" = [
-  "mkdocs-material>=9.5.36",
+  "mkdocs-material>=9.7.7",
   "mkdocs-git-revision-date-localized-plugin",
   "mkdocs-redirects",
   "mkdocstrings[python]>=0.26.1",
